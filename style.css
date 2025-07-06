@@ -15,15 +15,62 @@ section{
 
 
 }
+.secondary{
+   background: #e8d9cf;
+   padding: 80px;
+
+}
+.text-center{
+    text-align: center;
+}
 .ist-image{
     margin-left: 50px;
    
 }
 
+.card {
+    background: white;
+    margin: 30px 0;
+    border-radius: 20px;
+  }
+  .card-body {
+    padding: 0 30px;
+    text-align: center;
+
+  }  
+  .card-body h4{
+    font-size:22px;
+  }
+.grid-3columns{
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.btn{
+    background-color:black;
+    display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  text-decoration: none;
+}
+.card-footer {
+    padding: 20px;
+  }
+
 .zanzibar-image-1{
 width: 415px;
 height:361px;
 margin-top:15px;
+}
+.resturant1{
+width:320px;
+height:240px;
+    max-width: 100%;
+    display: block;
 }
 header{
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("images/zanzibar-1.jpg");
@@ -79,7 +126,7 @@ header h1 {
   }
   .grid{
     display: grid;
-    gap:15px;
+    gap:35px;
 }
 
 .grid-2columns{
