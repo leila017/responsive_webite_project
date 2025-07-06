@@ -204,5 +204,22 @@ header h1 {
     header h3 {
       font-size: 12px;
     }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+      }
+    
+      section {
+        padding: 30px;
+      }
+      .zanzibar-image-1{
+        width: 260px;
+        height:260px;
+        margin-top:15px;
+        text-align: center;
+        }
+        .why-zanzibar-description{
+            text-align: center;
+        }
   }
 
