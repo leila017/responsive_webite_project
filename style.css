@@ -17,6 +17,13 @@ section{
 }
 .ist-image{
     margin-left: 50px;
+   
+}
+
+.zanzibar-image-1{
+width: 415px;
+height:361px;
+margin-top:15px;
 }
 header{
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("images/zanzibar-1.jpg");
